@@ -1,0 +1,105 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background: rgb(39,39,39,0.1);
+}
+
+li {
+	list-style: none;
+}
+
+/* Styling the header*/
+.menu-main-navmenu-container,.menu-footer-menu-container {
+	background: white;
+	height:5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column
+}
+
+.menu-main-navmenu-container ul,.menu-footer-menu-container ul {
+	display: flex;
+	width: 90%;
+	align-items: center;
+	gap:2vw;
+}
+
+.menu-main-navmenu-container ul li,.menu-footer-menu-container ul li{
+	list-style: none;
+}
+
+.menu-main-navmenu-container ul li a,.menu-footer-menu-container ul li a{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+.assessment-theme{
+}
+/*Css for the home body */
+.home-css{
+
+}
+/*Css for the page body */
+.page-css{
+
+}
+
+
+.container {
+	width: 98vw;
+	margin:0 auto;
+	margin-top:-30px;
+	display: flex;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	min-height:400px;
+	gap:10px;
+}
+
+.mysidebar,.mycontent{
+	background: white;
+	display: flex;
+	/*justify-content: center;*/
+	padding:20px;
+	flex-direction: column;
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+
+.mysidebar {
+	width:30vw;
+}
+
+
+.mycontent{
+	width:70vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap:1vw;
+	background: transparent;
+	padding:0;
+}
+
+
+.post-container{
+	background: white;
+	padding:10px;
+	border-radius: 8px;
+	width: 100%;
+}
+
+
+
+
