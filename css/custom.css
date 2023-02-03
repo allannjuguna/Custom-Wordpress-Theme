@@ -14,6 +14,15 @@ li {
 	list-style: none;
 }
 
+
+
+a {
+	color:#014687;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+
 /* Styling the header*/
 .menu-main-navmenu-container,.menu-footer-menu-container {
 	background: white;
@@ -41,6 +50,13 @@ li {
 }
 
 
+p,span{
+	padding:4px;
+	color:black;
+	font-size:15px;
+	/*font-weight: 400;*/
+}
+
 
 .assessment-theme{
 }
@@ -61,7 +77,7 @@ li {
 	display: flex;
 	/*justify-content: center;*/
 	/*align-items: center;*/
-	min-height:400px;
+	min-height:77vh;
 	gap:10px;
 }
 
@@ -73,19 +89,33 @@ li {
 	flex-direction: column;
 	max-width: 100%;
 	border-radius: 8px;
+	min-height:100%;
 }
 
 
+
+.mysidebar h2,.mycontent h2{
+	font-family: monospace;
+	font-size: 23px;
+	color:#014687;
+	font-weight: 700;
+}
+
+
+
+
 .mysidebar {
-	width:30vw;
+	width:15vw;
+	display: flex;
+	gap:2vw;
 }
 
 
 .mycontent{
 	width:70vw;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	/*justify-content: center;*/
+	/*align-items: center;*/
 	flex-direction: column;
 	gap:1vw;
 	background: transparent;

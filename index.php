@@ -29,7 +29,7 @@
 					// echo '</p>';
 					// echo '<br/>';
 
-					echo '<h2>content: </h2>  <p>';
+					echo '<h3>content: </h3>  <p>';
 					the_content();
 					echo '</p>';
 					echo '<br/>';
@@ -39,7 +39,7 @@
 					echo '</p>';
 					echo '<br/>';
 
-					
+
 					echo '</div>';
 
 
