@@ -29,7 +29,7 @@
 					// echo '</p>';
 					// echo '<br/>';
 
-					echo '<h3>content: </h3>  <p>';
+					echo '<p>';
 					the_content();
 					echo '</p>';
 					echo '<br/>';
@@ -39,6 +39,12 @@
 					echo '</p>';
 					echo '<br/>';
 
+
+					echo '<p>Read More : ';
+					$link=esc_url(get_permalink());
+					the_title(sprintf("<a href=\"%s\">",$link),'</a>');
+					echo '</p>';
+					echo '<br/>';
 
 					echo '</div>';
 
